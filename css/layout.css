@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #00ffee;
+}
+
+.dot {
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--main-color);
+    border: solid 1px red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot1 {
+    border: solid 1px red;
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    border: solid 1px red;
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--second-bg-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    border: solid 1px red;
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+section a{
+    color: black !important;
+    font-size: 30px;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header {
+    /* border: solid red 3px; */
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    padding: 20px 10%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 25px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    /* border: red solid 2px; */
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: var(--main-color);
+  }
+  
+  
+  section.home {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+    height: 40vh;
+    /* background: url(../images/walpaper\ 1.jpg); */
+    background-position: center;
+    background-size: cover;
+    padding: 20px 10%;
+  
+  }
+  
+  
+  .home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+   
+  }
+  
+  .home-content h3{
+    
+    margin-bottom:15px ;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#00ffee;
+  }
+  
